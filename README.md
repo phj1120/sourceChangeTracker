@@ -1,6 +1,6 @@
-# Changed Source Tracking
+# Source Change Tracker
 
-Git 레포지토리의 브랜치별 변경사항을 추적하는 Java 애플리케이션
+Git 레포지토리의 브랜치별 소스 변경사항을 추적하는 Java 애플리케이션
 
 ## 설정
 
@@ -16,7 +16,7 @@ public enum RepositoryType {
 ```
 
 ### 2. 추적 브랜치 설정
-`src/main/java/ChangedSourcePrinterApplication.java`에서 추적할 브랜치 입력:
+`src/main/java/SourceChangeTrackerApplication.java`에서 추적할 브랜치 입력:
 
 ```java
 private static final List<String> TRACKING_BRANCHES = Arrays.asList("develop", "release/v1.0");

@@ -7,7 +7,7 @@ import service.ChangeTracker;
 import java.util.Arrays;
 import java.util.List;
 
-public class ChangedSourcePrinterApplication {
+public class SourceChangeTrackerApplication {
 
     /**
      * 추적할 브랜치 목록 설정
