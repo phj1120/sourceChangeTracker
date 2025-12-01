@@ -13,8 +13,8 @@ import java.util.stream.Collectors;
  * 형식: ENUM_NAME("레포지토리명", "기준브랜치", "절대경로")
  */
 public enum RepositoryType {
-    CHANGED_SOURCE_TRACKING("changedSourceTracking", "main", "/Users/parkh/Dev/git/Project/changedSourceTracking"),
-    VIBE_PAY("vibePay", "main", "/Users/parkh/Dev/git/Project/vibe-pay"),
+    CHANGED_SOURCE_TRACKING("changedSourceTracking", "origin/main", "/Users/parkh/Dev/git/Project/changedSourceTracking"),
+    VIBE_PAY("vibePay", "origin/main", "/Users/parkh/Dev/git/Project/vibe-pay"),
 //     B2CKSHOP_EMC("b2ckshop-emc", "master", "C:/path/to/b2ckshop-emc"),
 //     NKSHOP_EMC("nkshop-emc", "master", "C:/path/to/nkshop-emc"),
 //     NKSHOP_BOS("nkshop-bos", "master", "C:/path/to/nkshop-bos"),
