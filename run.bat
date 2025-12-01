@@ -7,10 +7,7 @@ if not exist "out\ChangedSourcePrinterApplication.class" (
     exit /b 1
 )
 
-REM config.properties를 out 디렉토리로 복사
-copy /Y config.properties out\ >nul 2>&1
-
 REM 애플리케이션 실행
-java -cp out ChangedSourcePrinterApplication %*
+java -cp out ChangedSourcePrinterApplication
 
 pause
